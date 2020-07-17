@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Gera-Tudo</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <body>
+    <div class="main">
+      <div class="sidebar">
+        <div class="overlay">
+          <div class="container-menu">
+            <div class="container-logo">
+              <h1 class="logo">Gera-Tudo</h1>
+            </div>
+            <ul class="links">
+              <li><a href="">Home</a></li>
+              <li><a href="">Gerar HTML</a></li>
+              <li><a href="">Gerar CSS</a></li>
+              <li><a href="">Gerar JavaScript</a></li>
+              <li><a href="">Gerar Json</a></li>
+              <li><a href="">Gerar XML</a></li>
+              <li><a href="">Gerar componentes React</a></li>
+              <li><a href="">Gerar componentes Vue</a></li>
+              <li><a href="">Gerar componentes Angular</a></li>
+              <li><a href="">Gerar metas tags SEO</a></li>
+              <li><a href="">Gerar documentos PDF</a></li>
+              <li><a href="">Gerar arquivos Word</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="wrap">
+        <div class="menu-topo">
+          <div class="container-topo">
+            <form action="" class="pesquisar">
+              <div class="controle-search">
+                <input type="search" name="" id="" placeholder="Pesquise aqui">
+                <button>
+                  <i class="fa fa-search"></i> Pesquisar
+                </button>
+              </div>
+            </form>
+            <ul class="actions">
+              <li><button class="bt bt-blue" type="button">Salvar</button></li>
+              <li><button class="bt bt-green" type="button">Exportar</button></li>
+              <li><button class="bt bt-red" type="button">Desfazer</button></li>
+            </ul>
+          </div>
+        </div><!--/Menu topo-->
+        <div class="content">
+
+        </div>
+      </div>
+    </div>
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>

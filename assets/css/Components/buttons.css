@@ -1,0 +1,21 @@
+/*Buttons Topo*/
+.bt{
+    color: #fff;
+    padding: 3px 20px;
+    border-radius: 3rem;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+.bt-blue{
+    background-color: #2196F3;
+    box-shadow: 1px 3px 6px 0 #2196f3a6;
+}
+.bt-green{
+    background-color: #8bc34a;
+    box-shadow: 1px 3px 6px 0 #8bc34a8c;
+}
+.bt-red{
+    background-color: #F44336;
+    box-shadow: 1px 3px 6px 0 #F44336;
+}

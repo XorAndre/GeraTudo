@@ -1,0 +1,14 @@
+/*Reset*/
+@import "./Components/reset.css";
+/*Textos*/
+@import "./Components/textos.css";
+/*Buttons*/
+@import "./Components/buttons.css";
+/*Formularios*/
+@import "./Components/formularios.css";
+/*Sections*/
+@import "./Components/sections.css";
+/*Sidebar*/
+@import "./Components/sidebar.css";
+/*Menu Topo*/
+@import "./Components/menuTopo.css";

@@ -1,0 +1,26 @@
+/*Menu topo*/
+.menu-topo{
+    background-color: #24262f;
+    box-shadow: 1px 3px 6px 0 rgba(0, 0, 0, 0.233);
+    min-height: 5vh;
+    width: 100%;
+}
+.menu-topo .container-topo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 99%;
+}
+.pesquisar{
+    width: 60%;
+}
+.actions{
+    display: flex;
+    flex-direction: row;
+    width: 36%;
+}
+.actions li{
+    padding: 10px;
+}
